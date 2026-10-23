@@ -1,4 +1,4 @@
-bet, fixes for laptop day. meanwhile here's a readme u can paste when u're on it, js swap in ur repo name:
+
 
 PhishGuard: ML Email Phishing Detection System
 
@@ -56,4 +56,3 @@ Python, scikit-learn, NumPy, React
 How to run
 (steps for installing requirements and starting the model + frontend)
 
-the "-" cells are urs to fill. that table is what makes recruiters stop scrolling
