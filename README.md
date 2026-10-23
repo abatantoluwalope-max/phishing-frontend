@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+bet, fixes for laptop day. meanwhile here's a readme u can paste when u're on it, js swap in ur repo name:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PhishGuard: ML Email Phishing Detection System
 
-## Available Scripts
+Detects phishing emails using TF-IDF vectorization and classical ML classifiers.
 
-In the project directory, you can run:
+Overview
+Built and evaluated three classifiers on 81,000+ real emails to separate phishing from legitimate mail. Text was cleaned, processed and vectorized with TF-IDF, then split 70:30 for training and testing.
 
-### `npm start`
+Models compared
+Random Forest
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+• Model: Random Forest
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+• Accuracy: 98%
 
-### `npm test`
+• Precision: 98%
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+• Recall: 98%
 
-### `npm run build`
+• F1: 98%
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Logistic Regression
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+• Model: Logistic Regression
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+• Accuracy: -
 
-### `npm run eject`
+• Precision: -
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+• Recall: -
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+• F1: -
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Naive Bayes
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+• Model: Naive Bayes
 
-## Learn More
+• Accuracy: -
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+• Precision: -
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+• Recall: -
 
-### Code Splitting
+• F1: -
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Random Forest was selected as the final model. (fill in the other rows from ur results, showing the comparison matters more than the winner)
 
-### Analyzing the Bundle Size
+Live demo
+Frontend: 🔗 https://folkapp.link/link/AGGJc93
+Paste any email and get a phishing prediction with a confidence score.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Stack
+Python, scikit-learn, NumPy, React
 
-### Making a Progressive Web App
+How to run
+(steps for installing requirements and starting the model + frontend)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+the "-" cells are urs to fill. that table is what makes recruiters stop scrolling
